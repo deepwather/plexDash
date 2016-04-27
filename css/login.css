@@ -1,0 +1,81 @@
+html, body {
+	height: 100%;
+  	margin: 0px;
+  	padding: 0px;
+	}
+body {
+background: #2d2d2d url('../img/splash.png') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+body, a {
+color: #fff;
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+}
+form {
+  background: #141414;
+  opacity:0.5;
+  position: absolute;
+  overflow: hidden;
+  line-height: 2em;
+  padding: 5px;
+  width: 251px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.menu {
+  border:1px outset gray; margin:.5em; padding:.0em; background: #2d2d2d;
+}
+
+.logout {
+	border:1px outset gray;
+	margin:0.5em;
+	padding:0em;
+	background-color:#2d2d2d;
+	width: 40px;
+	position: absolute;
+	left: 205px;
+	top: 150px;
+}
+label {
+  clear: both;
+  float: right;
+  color: black;
+}
+span {
+  float: left;
+  padding-right: 5px;
+  text-align: right;
+  width: 8em;
+  color: white;
+}
+input {
+  float: left;
+  margin-top: 3px;
+}
+input.text {
+  border: 1px solid #111;
+  padding: 2px;
+  width: 10em;
+}
+input.submit {
+  clear: both;
+  float: right;
+}
+h2 {
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0px;
+  text-align: right;
+}
+p {
+  display: none;
+}
+
+textarea, input[type="password"] {
+  background-color: white;
+}
